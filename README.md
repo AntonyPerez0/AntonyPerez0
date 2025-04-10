@@ -83,4 +83,4 @@ I'm also an aspiring **Software Engineer**, actively developing Android applicat
 ### 📫 How to reach me
 
 * **Email:** <a href="mailto:antonyperez0@yahoo.com">antonyperez0@yahoo.com</a>
-* **LinkedIn:** [Your LinkedIn Profile](link-to-your-linkedin) ---
+* **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/antonyperez01/) ---
