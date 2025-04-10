@@ -2,7 +2,7 @@
 
 **Technical Writer | Android Developer | Full Stack Enthusiast**
 
-📧 <a href="mailto:antonyperez0@yahoo.com">antonyperez0@yahoo.com</a> | 🔗 LinkedIn: [Your LinkedIn Profile]([link-to-your-linkedin](https://www.linkedin.com/in/antonyperez01/)) ---
+📧 <a href="mailto:antonyperez0@yahoo.com">antonyperez0@yahoo.com</a> | 🔗 LinkedIn: [Antony Perez](https://www.linkedin.com/in/antonyperez01/)
 
 ### Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
