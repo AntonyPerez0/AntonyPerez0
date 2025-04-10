@@ -2,8 +2,6 @@
 
 **Technical Writer | Android Developer | Full Stack Enthusiast**
 
-📧 <a href="mailto:antonyperez0@yahoo.com">antonyperez0@yahoo.com</a> | 🔗 LinkedIn: [Antony Perez](https://www.linkedin.com/in/antonyperez01/)
-
 ### Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 I'm a **Technical Writer** with a passion for creating clear, concise, and developer-friendly documentation. My experience includes authoring user guides and API documentation for mobile SDKs and e-commerce features, collaborating closely with engineering teams to enhance understanding and streamline integration processes.
