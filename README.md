@@ -38,19 +38,6 @@ I'm also an aspiring **Software Engineer**, actively developing Android applicat
 
 ---
 
-### 🚀 Featured Software Project
-
-**📱 MagicDocs**
-*(April 2025 - Present)*
-
-* A comprehensive documentation site built with Docusaurus for running PC games on Android devices with Snapdragon 8 Elite chipsets.
-* Provides detailed setup guides for Winlator and other PC emulation tools on mobile platforms.
-* Features an extensive game compatibility database to help users find playable PC titles on Android.
-* Includes optimization techniques to maximize performance and battery life while gaming.
-* Offers troubleshooting resources for common issues encountered in mobile PC gaming.
-* Built using modern web technologies (HTML, TypeScript, JavaScript, CSS) for a responsive user experience.
-* [View Repository](https://github.com/AntonyPerez0/Magicdocs)
-
 ### 💼 Work Experience
 
 **Technical Writer @ Fortune 500** *(Sept. 2024 - Present)*
