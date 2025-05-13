@@ -1,4 +1,4 @@
-# Antony Perez 👋
+# Antony Perez 
 
 **Technical Writer | Android Developer | Software Engineer**
 
