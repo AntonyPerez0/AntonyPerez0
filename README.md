@@ -132,8 +132,9 @@ const antony = {
 
 <div align="center">
 
-<img src="./metrics/overview.svg" alt="GitHub activity and repositories" width="46%" />
-<img src="./metrics/languages.svg" alt="Most used languages" width="46%" />
+<img src="./metrics/overview.svg" alt="GitHub activity" width="480" />
+
+<img src="./metrics/languages.svg" alt="Most used languages" width="480" />
 
 <br/>
 
