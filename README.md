@@ -132,8 +132,8 @@ const antony = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AntonyPerez0&show_icons=true&hide_border=true&bg_color=0B1120&title_color=5B8CFF&icon_color=9D7CFF&text_color=C2CBDD" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AntonyPerez0&layout=compact&hide_border=true&bg_color=0B1120&title_color=5B8CFF&text_color=C2CBDD&langs_count=8" alt="top languages" />
+<img src="./metrics/overview.svg" alt="GitHub activity and repositories" width="46%" />
+<img src="./metrics/languages.svg" alt="Most used languages" width="46%" />
 
 <br/>
 
