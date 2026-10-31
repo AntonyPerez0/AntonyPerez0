@@ -28,6 +28,8 @@ shipped through CI, and a live multiplayer game. Every project carries its own a
 suite and is deployed by CI on every push. I also run a **bare-metal Kubernetes
 cluster**, managed entirely by GitOps.
 
+📈 My live sites drew **28,000+ unique visitors in the last 30 days** (Cloudflare, Oct 2026).
+
 Two years as a **technical writer** at Clover Network embedded with Agile engineering
 teams means my PRs, commit messages, and docs are the ones teammates actually want to read.
 
@@ -124,23 +126,25 @@ const antony = {
 
 ## 📌 Featured Projects
 
+<sub>Visitor counts are Cloudflare unique visitors over the last 30 days, as of Oct 2026.</sub>
+
 | Project | What it is | Stack |
 |:--|:--|:--|
-| **🏟️ Arena series**<br/>[C/C++](https://cpparena.com) · [Java](https://javaarena.com) · [Python](https://pythonarena.org) · [Rust](https://rustarena.app)<br/><sub>code: [cpp](https://github.com/AntonyPerez0/cpp-arena) · [java](https://github.com/AntonyPerez0/Java-Arena) · [python](https://github.com/AntonyPerez0/pythonarena) · [rust](https://github.com/AntonyPerez0/RustArena)</sub> | Four free learn-to-code sites with real compilation in the browser: Clang 20 and javac 21 compiled to WebAssembly, CPython 3.14 via Pyodide, and the official Rust Playground. 48 to 65 modules each, drills, guided projects, and a Pro Track graded by GitHub Actions. CI compiles and runs every lesson solution and fails the build if any output is wrong. | React · TypeScript · WebAssembly · Web Workers · CodeMirror · Playwright · axe-core |
+| **🏟️ Arena series**<br/>[C/C++](https://cpparena.com) · [Java](https://javaarena.com) · [Python](https://pythonarena.org) · [Rust](https://rustarena.app)<br/><sub>code: [cpp](https://github.com/AntonyPerez0/cpp-arena) · [java](https://github.com/AntonyPerez0/Java-Arena) · [python](https://github.com/AntonyPerez0/pythonarena) · [rust](https://github.com/AntonyPerez0/RustArena)</sub> | Four free learn-to-code sites with real compilation in the browser: Clang 20 and javac 21 compiled to WebAssembly, CPython 3.14 via Pyodide, and the official Rust Playground. 48 to 65 modules each, drills, guided projects, and a Pro Track graded by GitHub Actions. CI compiles and runs every lesson solution and fails the build if any output is wrong. **RustArena: 7k+ visitors / 30 days.** | React · TypeScript · WebAssembly · Web Workers · CodeMirror · Playwright · axe-core |
+| **🎯 [CS2 Pro Configs](https://copyprosta.com)**<br/><sub>[code](https://github.com/AntonyPerez0/cs2-pro-configs)</sub> | Settings of 620+ Counter-Strike 2 pros as ready-to-paste console commands, with crosshairs converted to the CS2 system and a DPI-matched sensitivity calculator. A Python scraper in a weekly GitHub Actions job refreshes the data and prerenders a static page per player for search. **15k+ visitors / 30 days.** | Python · JavaScript · GitHub Actions · GitHub Pages |
 | **🎮 [Anomaly Grove](https://www.roblox.com/games/88948987401653/Anomaly-Grove)**<br/><sub>[code](https://github.com/AntonyPerez0/anomaly-grove)</sub> | Live multiplayer Roblox tycoon game. ~24k lines across 142 modules, 240 automated tests, server-authoritative validation of every client request, schema-versioned saves with session locking, and an economy balanced by a 1,200-hour pacing simulation. | Luau (strict) · Selene · StyLua · Python |
 | **🤖 [Job Autopilot](https://github.com/AntonyPerez0/job-autopilot-desktop/releases/latest)**<br/><sub>[code](https://github.com/AntonyPerez0/job-autopilot-desktop)</sub> | Desktop app for macOS and Windows that finds matching jobs, builds a one-page resume for each from content the user approved, and fills in applications. Starts in dry run, never invents facts, never applies twice. Release builds for both platforms are produced by CI. | Electron · Playwright · Node.js · electron-builder |
 | **🕹️ [Spritespeak](https://antonyperez0.github.io/spritespeak/)**<br/><sub>[code](https://github.com/AntonyPerez0/spritespeak)</sub> | Learn a language by playing retro games. An in-browser emulator, live OCR of on-screen dialogue with a PaddleOCR PP-OCRv5 model in ONNX Runtime Web inside a Web Worker, translation, and spaced-repetition flashcards. Offline PWA, built to WCAG 2.2 AA. | onnxruntime-web · PaddleOCR · Tesseract.js · IndexedDB · Vite · Vitest · Playwright |
 | **☸️ [GitOps Home Lab](https://github.com/AntonyPerez0/homelab)** | Eighteen self-hosted services on single-node Kubernetes, immutable Talos host with no SSH, reconciled from Git every ten minutes with pruning. Falco eBPF threat detection, five HA PostgreSQL clusters, nightly verified backups. | Kubernetes · Talos · FluxCD · Kustomize · Falco · CloudNativePG · Prometheus · Grafana |
-| **🎛️ [SortiePrep](https://sortieprep.com)**<br/><sub>[code](https://github.com/AntonyPerez0/Interactive-F-14-startup-simulator)</sub> | Event-driven cockpit procedure trainer for the F-14B and F/A-18C. Engines, hydraulics, generators, bleed air, and INS alignment are modeled on an event bus, so 109 of 135 steps confirm from simulated aircraft state. Headless suites drive every checklist to completion. | Vanilla JS ES modules · Service Worker · Cloudflare Pages Functions · D1 |
+| **🎛️ [SortiePrep](https://sortieprep.com)**<br/><sub>[code](https://github.com/AntonyPerez0/Interactive-F-14-startup-simulator)</sub> | Event-driven cockpit procedure trainer for the F-14B and F/A-18C. Engines, hydraulics, generators, bleed air, and INS alignment are modeled on an event bus, so 109 of 135 steps confirm from simulated aircraft state. Headless suites drive every checklist to completion. **1.5k+ visitors / 30 days.** | Vanilla JS ES modules · Service Worker · Cloudflare Pages Functions · D1 |
 | **📋 [Baseline Control](https://antonyperez0.github.io/baseline-control/)**<br/><sub>[code](https://github.com/AntonyPerez0/baseline-control)</sub> | Configuration-management training simulator built on ANSI/EIA-649. Generates scenarios across ten task types and grades them against derived answer keys, over a four-week career mode and forty lessons. | Vanilla JS · Service Worker · 175 automated checks · GitHub Actions |
 
 **More projects**
 
-- 📰 **[News Dashboard](https://newsdash.page)** ([code](https://github.com/AntonyPerez0/news-dashboard)): ambient headline wall for a second monitor, built to run unattended for weeks. React 18, strict TypeScript, Express, Vitest.
-- 🎯 **[CS2 Pro Configs](https://copyprosta.com)** ([code](https://github.com/AntonyPerez0/cs2-pro-configs)): 620+ pro players' settings as copy-paste console commands, refreshed weekly by a GitHub Actions data pipeline.
+- 📰 **[News Dashboard](https://newsdash.page)** ([code](https://github.com/AntonyPerez0/news-dashboard)): ambient headline wall for a second monitor, built to run unattended for weeks. React 18, strict TypeScript, Express, Vitest. *1.5k+ visitors / 30 days.*
 - ⚔️ **[BuildForge](https://antonyperez0.github.io/buildforge/)** ([code](https://github.com/AntonyPerez0/buildforge)): offline-capable PWA build companion for Diablo IV and WoW. Next.js, TypeScript, Tailwind, nightly data sync.
 - 🧪 **[LabSim](https://antonyperez0.github.io/labsim/)** ([code](https://github.com/AntonyPerez0/labsim)): first-person 3D training simulator of an automation lab with procedural geometry. Three.js, React 19, zustand, Vitest, Playwright.
-- 🎨 **[Portfolio Site](https://antonyperez.com)** ([code](https://github.com/AntonyPerez0/Portfolio-site)): interactive 3D badge on a physics-simulated lanyard with progressive enhancement. React Three Fiber, Rapier, Vitest.
+- 🎨 **[Portfolio Site](https://antonyperez.com)** ([code](https://github.com/AntonyPerez0/Portfolio-site)): interactive 3D badge on a physics-simulated lanyard with progressive enhancement. React Three Fiber, Rapier, Vitest. *2k visitors / 30 days.*
 
 > 🔗 See them live, plus an interactive 3D physics badge, at **[antonyperez.com](https://antonyperez.com)**
 
