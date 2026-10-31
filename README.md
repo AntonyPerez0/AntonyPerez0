@@ -11,7 +11,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/U.S._Citizen-eligible_for_clearance-5B8CFF?style=flat-square&labelColor=0B1120" alt="US Citizen, eligible for clearance" />
-  <img src="https://img.shields.io/badge/DOE_Q_Clearance-able_to_obtain_and_maintain-9D7CFF?style=flat-square&labelColor=0B1120" alt="Able to obtain and maintain DOE Q clearance" />
   <img src="https://img.shields.io/badge/B.S._Computer_Science-WGU_2026-3DDC97?style=flat-square&labelColor=0B1120" alt="BS Computer Science WGU 2026" />
 </p>
 
@@ -43,7 +42,7 @@ const antony = {
   degree:   "B.S. Computer Science, WGU (May 2026)",
   certs:    ["ITIL Foundation", "Linux Foundations"],
   building: ["in-browser compilers (WebAssembly)", "on-device ML", "desktop apps", "a GitOps k8s cluster"],
-  clearance:"U.S. Citizen, eligible for clearance / DOE Q",
+  clearance:"U.S. Citizen, eligible for clearance",
   motto:    "Documented. Tested. Deployed.",
   status:   "open to SWE roles 🚀",
 };
