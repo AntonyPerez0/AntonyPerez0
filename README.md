@@ -21,10 +21,12 @@
 
 <br/>
 
-I'm a **software engineer** in the SF Bay Area. I ship browser applications that run
-on-device machine learning in a Web Worker, simulate system state on an event bus, and
-carry their own automated test suites, deployed by CI on every push. I also run the
-**bare-metal Kubernetes environment** they sit next to, managed entirely by GitOps.
+I'm a **software engineer** in the SF Bay Area. I ship production software people use:
+browser apps that compile and run real C++, Java, Python, and Rust in WebAssembly,
+on-device machine learning in a Web Worker, a cross-platform desktop app
+shipped through CI, and a live multiplayer game. Every project carries its own automated test
+suite and is deployed by CI on every push. I also run a **bare-metal Kubernetes
+cluster**, managed entirely by GitOps.
 
 Two years as a **technical writer** at Clover Network embedded with Agile engineering
 teams means my PRs, commit messages, and docs are the ones teammates actually want to read.
@@ -38,7 +40,7 @@ const antony = {
   based:    "Fremont, CA (SF Bay Area)",
   degree:   "B.S. Computer Science, WGU (May 2026)",
   certs:    ["ITIL Foundation", "Linux Foundations"],
-  building: ["browser apps with on-device ML", "event-driven simulators", "a GitOps k8s cluster"],
+  building: ["in-browser compilers (WebAssembly)", "on-device ML", "desktop apps", "a GitOps k8s cluster"],
   clearance:"U.S. Citizen, eligible for clearance / DOE Q",
   motto:    "Documented. Tested. Deployed.",
   status:   "open to SWE roles 🚀",
@@ -49,10 +51,10 @@ const antony = {
 
 ## 🚀 What I'm working on
 
-- 🧠 **[Emulingo](https://github.com/AntonyPerez0/emulingo)**, a browser language-learning platform running a PaddleOCR neural model on-device through onnxruntime-web inside a Web Worker, with translation across 28 language pairs and offline support.
-- 🎛️ **[SortiePrep](https://sortieprep.com)**, an event-driven cockpit procedure trainer where every step confirms from simulated engine, hydraulic, and alignment state rather than a checkbox.
-- ☸️ A **bare-metal Kubernetes cluster** on immutable Talos Linux, reconciled from Git every ten minutes by FluxCD with pruning enabled, so drift is corrected back to the committed baseline without me touching it.
-- 🔐 Runtime threat detection and per-namespace pod security across eighteen self-hosted services, behind a zero-trust Tailscale mesh.
+- 🏟️ **The Arena series**, free sites for learning [C/C++](https://cpparena.com), [Java](https://javaarena.com), [Python](https://pythonarena.org), and [Rust](https://rustarena.app), where every exercise is compiled by a real compiler and every model solution is re-verified by CI before deploy.
+- 🤖 **[Job Autopilot](https://github.com/AntonyPerez0/job-autopilot-desktop)**, an Electron desktop app for macOS and Windows, shipping new releases through CI several times a week.
+- 🎮 **[Anomaly Grove](https://www.roblox.com/games/88948987401653/Anomaly-Grove)**, a live multiplayer Roblox game: 24k lines of strict-typed Luau, 240 tests, server-authoritative with session-locked saves.
+- ☸️ A **bare-metal Kubernetes cluster** on immutable Talos Linux, reconciled from Git by FluxCD, with Falco runtime threat detection across eighteen self-hosted services.
 - ✍️ Keeping engineering and documentation in sync so developer experience doesn't rot.
 
 <br/>
@@ -66,6 +68,7 @@ const antony = {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0B1120)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&labelColor=0B1120)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0B1120)
+![Luau](https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=lua&logoColor=white&labelColor=0B1120)
 ![Bash](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=0B1120)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=0B1120)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=0B1120)
@@ -74,7 +77,11 @@ const antony = {
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=0B1120)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white&labelColor=0B1120)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=0B1120)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=0B1120)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white&labelColor=0B1120)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white&labelColor=0B1120)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white&labelColor=0B1120)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white&labelColor=0B1120)
 ![ES Modules](https://img.shields.io/badge/ES_Modules-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=0B1120)
 ![Service Workers](https://img.shields.io/badge/Service_Workers_/_PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white&labelColor=0B1120)
@@ -107,6 +114,8 @@ const antony = {
 
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white&labelColor=0B1120)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white&labelColor=0B1120)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white&labelColor=0B1120)
+![axe](https://img.shields.io/badge/axe--core_(a11y)-663399?style=flat-square&labelColor=0B1120)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=flat-square&logo=sonarcloud&logoColor=white&labelColor=0B1120)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white&labelColor=0B1120)
 ![ITIL](https://img.shields.io/badge/ITIL_Foundation-9D7CFF?style=flat-square&labelColor=0B1120)
@@ -117,12 +126,21 @@ const antony = {
 
 | Project | What it is | Stack |
 |:--|:--|:--|
-| **🧠 [Emulingo](https://github.com/AntonyPerez0/emulingo)** | Browser language-learning platform running OCR on-device in a Web Worker, capturing on-screen text about every 1.2 seconds without blocking the UI thread. 28 language pairs, spaced-repetition decks, offline. | onnxruntime-web · PaddleOCR · Web Workers · IndexedDB · Vite |
-| **🎛️ [SortiePrep](https://sortieprep.com)** | Event-driven cockpit procedure trainer. Engines, hydraulics, generators, bleed air, and INS alignment modeled on an event bus, so steps confirm from simulated state. Two headless suites drive every procedure to completion. | Vanilla JS ES modules · Service Worker · Cloudflare Pages Functions · D1 |
-| **📋 [Baseline Control](https://github.com/AntonyPerez0/baseline-control)** | Configuration-management training simulator. Generates scenarios across ten task types and grades them against derived answer keys rather than lookup tables, over a four-week career mode and forty lessons. | Vanilla JS · localStorage save slots · 175 automated checks · GitHub Actions |
-| **☸️ [GitOps Home Lab](https://github.com/AntonyPerez0/homelab)** | Eighteen self-hosted services on single-node Kubernetes v1.36, immutable Talos host with no SSH, reconciled from Git every ten minutes with pruning. Falco eBPF threat detection, five HA PostgreSQL clusters, nightly verified backups. | Kubernetes · Talos · FluxCD · Kustomize · Falco · CloudNativePG · Prometheus · Grafana |
-| **🎨 [Portfolio Site](https://antonyperez.com)** | Single-page site with an interactive 3D badge on a physics-simulated lanyard, progressive enhancement so a CSS badge renders first and upgrades to WebGL where supported. | React 18 · Vite · Three.js · React Three Fiber · Rapier · Vitest |
-| **🎬 Movie Theater API** | REST API with validation, model associations, and genre filtering. | Node · Express · Sequelize · SQLite · Jest |
+| **🏟️ Arena series**<br/>[C/C++](https://cpparena.com) · [Java](https://javaarena.com) · [Python](https://pythonarena.org) · [Rust](https://rustarena.app)<br/><sub>code: [cpp](https://github.com/AntonyPerez0/cpp-arena) · [java](https://github.com/AntonyPerez0/Java-Arena) · [python](https://github.com/AntonyPerez0/pythonarena) · [rust](https://github.com/AntonyPerez0/RustArena)</sub> | Four free learn-to-code sites with real compilation in the browser: Clang 20 and javac 21 compiled to WebAssembly, CPython 3.14 via Pyodide, and the official Rust Playground. 48 to 65 modules each, drills, guided projects, and a Pro Track graded by GitHub Actions. CI compiles and runs every lesson solution and fails the build if any output is wrong. | React · TypeScript · WebAssembly · Web Workers · CodeMirror · Playwright · axe-core |
+| **🎮 [Anomaly Grove](https://www.roblox.com/games/88948987401653/Anomaly-Grove)**<br/><sub>[code](https://github.com/AntonyPerez0/anomaly-grove)</sub> | Live multiplayer Roblox tycoon game. ~24k lines across 142 modules, 240 automated tests, server-authoritative validation of every client request, schema-versioned saves with session locking, and an economy balanced by a 1,200-hour pacing simulation. | Luau (strict) · Selene · StyLua · Python |
+| **🤖 [Job Autopilot](https://github.com/AntonyPerez0/job-autopilot-desktop/releases/latest)**<br/><sub>[code](https://github.com/AntonyPerez0/job-autopilot-desktop)</sub> | Desktop app for macOS and Windows that finds matching jobs, builds a one-page resume for each from content the user approved, and fills in applications. Starts in dry run, never invents facts, never applies twice. Release builds for both platforms are produced by CI. | Electron · Playwright · Node.js · electron-builder |
+| **🕹️ [Spritespeak](https://antonyperez0.github.io/spritespeak/)**<br/><sub>[code](https://github.com/AntonyPerez0/spritespeak)</sub> | Learn a language by playing retro games. An in-browser emulator, live OCR of on-screen dialogue with a PaddleOCR PP-OCRv5 model in ONNX Runtime Web inside a Web Worker, translation, and spaced-repetition flashcards. Offline PWA, built to WCAG 2.2 AA. | onnxruntime-web · PaddleOCR · Tesseract.js · IndexedDB · Vite · Vitest · Playwright |
+| **☸️ [GitOps Home Lab](https://github.com/AntonyPerez0/homelab)** | Eighteen self-hosted services on single-node Kubernetes, immutable Talos host with no SSH, reconciled from Git every ten minutes with pruning. Falco eBPF threat detection, five HA PostgreSQL clusters, nightly verified backups. | Kubernetes · Talos · FluxCD · Kustomize · Falco · CloudNativePG · Prometheus · Grafana |
+| **🎛️ [SortiePrep](https://sortieprep.com)**<br/><sub>[code](https://github.com/AntonyPerez0/Interactive-F-14-startup-simulator)</sub> | Event-driven cockpit procedure trainer for the F-14B and F/A-18C. Engines, hydraulics, generators, bleed air, and INS alignment are modeled on an event bus, so 109 of 135 steps confirm from simulated aircraft state. Headless suites drive every checklist to completion. | Vanilla JS ES modules · Service Worker · Cloudflare Pages Functions · D1 |
+| **📋 [Baseline Control](https://antonyperez0.github.io/baseline-control/)**<br/><sub>[code](https://github.com/AntonyPerez0/baseline-control)</sub> | Configuration-management training simulator built on ANSI/EIA-649. Generates scenarios across ten task types and grades them against derived answer keys, over a four-week career mode and forty lessons. | Vanilla JS · Service Worker · 175 automated checks · GitHub Actions |
+
+**More projects**
+
+- 📰 **[News Dashboard](https://newsdash.page)** ([code](https://github.com/AntonyPerez0/news-dashboard)): ambient headline wall for a second monitor, built to run unattended for weeks. React 18, strict TypeScript, Express, Vitest.
+- 🎯 **[CS2 Pro Configs](https://copyprosta.com)** ([code](https://github.com/AntonyPerez0/cs2-pro-configs)): 620+ pro players' settings as copy-paste console commands, refreshed weekly by a GitHub Actions data pipeline.
+- ⚔️ **[BuildForge](https://antonyperez0.github.io/buildforge/)** ([code](https://github.com/AntonyPerez0/buildforge)): offline-capable PWA build companion for Diablo IV and WoW. Next.js, TypeScript, Tailwind, nightly data sync.
+- 🧪 **[LabSim](https://antonyperez0.github.io/labsim/)** ([code](https://github.com/AntonyPerez0/labsim)): first-person 3D training simulator of an automation lab with procedural geometry. Three.js, React 19, zustand, Vitest, Playwright.
+- 🎨 **[Portfolio Site](https://antonyperez.com)** ([code](https://github.com/AntonyPerez0/Portfolio-site)): interactive 3D badge on a physics-simulated lanyard with progressive enhancement. React Three Fiber, Rapier, Vitest.
 
 > 🔗 See them live, plus an interactive 3D physics badge, at **[antonyperez.com](https://antonyperez.com)**
 
