@@ -27,6 +27,9 @@ jobs:
           config_timezone: America/Los_Angeles
           config_theme: dark
           plugin_lines: yes
+          # Has commits from an email not linked to a GitHub account (author: null),
+          # which crashes the lines plugin.
+          plugin_lines_skipped: labsim-private-archive
 
       - name: Languages card
         uses: lowlighter/metrics@latest
